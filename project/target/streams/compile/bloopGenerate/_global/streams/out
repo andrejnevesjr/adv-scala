@@ -1,0 +1,4 @@
+[debug] [advance-scala-build] Classpath dependencies List()
+[debug] [advance-scala-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'advance-scala-build' to '/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/.bloop/advance-scala-build.json'
+[success] Generated .bloop/advance-scala-build.json

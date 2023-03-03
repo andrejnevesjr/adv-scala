@@ -1,0 +1,1860 @@
+2023.02.22 13:46:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/lsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.02.22 13:46:21 INFO  logging to file /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/metals.log[0m
+2023.02.22 13:46:21 INFO  Started: Metals version 0.11.10 in workspace '/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/andrejnevesjr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.22 13:46:21 INFO  time: initialize in 0.76s[0m
+2023.02.22 13:46:22 WARN  Build server is not auto-connectable.[0m
+2023.02.22 13:47:30 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:47:31 INFO  no build target found for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.02.22 13:47:32 INFO  time: code lens generation in 1.86s[0m
+2023.02.22 13:47:36 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:47:48 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:47:48 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:47:50 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:47:57 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:48:06 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:48:07 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:48:18 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:48:23 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+Feb 22, 2023 1:48:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.22 13:48:27 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:48:28 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+Feb 22, 2023 1:48:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.22 13:48:33 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/Main.scala[0m
+2023.02.22 13:48:45 Feb 22, 2023 1:48:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:49:07 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/part1/Recap.scala[0m
+2023.02.22 13:49:09 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:50:13 INFO  running '/opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/wc/z7n51xp50px7l2v0h4jq86pm0000gn/T/metals15993138487056679794/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.02.22 13:50:13 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/metals.sbt[0m
+2023.02.22 13:50:13 WARN  no build target for: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/project/metals.sbt[0m
+2023.02.22 13:50:13 INFO  skipping build import with status 'Started'[0m
+2023.02.22 13:50:14 INFO  [info] welcome to sbt 1.8.2 (Homebrew Java 11.0.18)[0m
+2023.02.22 13:50:14 INFO  [info] loading global plugins from /Users/andrejnevesjr/.sbt/1.0/plugins[0m
+2023.02.22 13:50:16 INFO  [info] loading settings for project advance-scala-build-build from metals.sbt ...[0m
+2023.02.22 13:50:16 INFO  [info] loading project definition from /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/project[0m
+2023.02.22 13:50:16 INFO  [info] loading settings for project advance-scala-build from metals.sbt ...[0m
+2023.02.22 13:50:16 INFO  [info] loading project definition from /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project[0m
+2023.02.22 13:50:17 INFO  [success] Generated .bloop/advance-scala-build.json[0m
+2023.02.22 13:50:17 INFO  [success] Total time: 1 s, completed Feb 22, 2023, 1:50:17 PM[0m
+2023.02.22 13:50:17 INFO  [info] loading settings for project advance-scala from build.sbt ...[0m
+2023.02.22 13:50:17 INFO  [info] set current project to hello-world (in build file:/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/)[0m
+2023.02.22 13:50:17 INFO  [success] Generated .bloop/advance-scala-test.json[0m
+2023.02.22 13:50:17 INFO  [success] Generated .bloop/advance-scala.json[0m
+2023.02.22 13:50:17 INFO  [success] Total time: 0 s, completed Feb 22, 2023, 1:50:18 PM[0m
+2023.02.22 13:50:18 INFO  time: ran 'sbt bloopInstall' in 5.48s[0m
+2023.02.22 13:50:18 INFO  Attempting to connect to the build server...[0m
+2023.02.22 13:50:18 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json[0m
+2023.02.22 13:50:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.22 13:50:18 INFO  Attempting to connect to the build server...[0m
+2023.02.22 13:50:18 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json[0m
+2023.02.22 13:50:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.22 13:50:18 INFO  time: Connected to build server in 0.21s[0m
+2023.02.22 13:50:18 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.02.22 13:50:21 INFO  time: indexed workspace in 2.47s[0m
+2023.02.22 13:50:22 INFO  compiling advance-scala (2 scala sources)[0m
+2023.02.22 13:50:24 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 5.159s)[0m
+2023.02.22 13:50:24 INFO  compiling advance-scala (2 scala sources)[0m
+2023.02.22 13:50:24 INFO  time: compiled advance-scala in 0.95s[0m
+2023.02.22 13:50:38 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:50:38 INFO  time: compiled advance-scala in 0.41s[0m
+2023.02.22 13:50:41 INFO  Configured debugger context in 437 milliseconds[0m
+2023.02.22 13:50:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:50:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:50:41 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:50:41 INFO  Trying to attach to remote debuggee VM localhost:53139 .[0m
+2023.02.22 13:50:41 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:50:41 INFO  Closing debug server tcp://0.0.0.0:53135[0m
+2023.02.22 13:50:41 INFO  Canceling debug proxy for [Recap][0m
+Feb 22, 2023 1:50:41 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.02.22 13:51:07 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:51:07 INFO  time: compiled advance-scala in 0.38s[0m
+2023.02.22 13:51:17 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:51:18 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:51:17 INFO  time: compiled advance-scala in 0.35s[0m
+2023.02.22 13:51:28 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:51:28 INFO  time: compiled advance-scala in 0.31s[0m
+2023.02.22 13:53:11 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:53:11 INFO  time: compiled advance-scala in 0.37s[0m
+2023.02.22 13:53:11 INFO  Configured debugger context in 486 milliseconds[0m
+2023.02.22 13:53:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:53:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:53:12 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:53:11 INFO  Trying to attach to remote debuggee VM localhost:53176 .[0m
+2023.02.22 13:53:11 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:53:12 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:53:12 INFO  Closing debug server tcp://0.0.0.0:53172[0m
+Feb 22, 2023 1:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 901
+2023.02.22 13:53:29 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala:20: error: [dialect scala213] expected start of definition
+}
+^[0m
+2023.02.22 13:53:30 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:30 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:31 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:35 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:37 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:37 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:39 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:39 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:42 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:43 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:44 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:46 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:47 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:48 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:49 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:50 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:51 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:52 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:54 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:57 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:58 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:59 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:53:59 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:00 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:02 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:03 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:05 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:09 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:10 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:12 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:12 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:14 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:14 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:17 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:18 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:20 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:21 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:21 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:22 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:24 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:25 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:25 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:54:25 INFO  time: compiled advance-scala in 0.13s[0m
+Feb 22, 2023 1:54:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$7(BuildServerConnection.scala:383)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:381)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:362)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.02.22 13:54:30 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:41 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:54:42 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:54:41 INFO  time: compiled advance-scala in 0.46s[0m
+Feb 22, 2023 1:54:44 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 511, count -1, length 522
+2023.02.22 13:54:49 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala:26: error: [dialect scala213] = expected but } found
+}
+^[0m
+2023.02.22 13:54:49 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:54:49 INFO  time: compiled advance-scala in 49ms[0m
+2023.02.22 13:54:58 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:54:58 INFO  time: compiled advance-scala in 0.35s[0m
+2023.02.22 13:55:00 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 4m 41.415s)[0m
+2023.02.22 13:55:00 INFO  Configured debugger context in 513 milliseconds[0m
+2023.02.22 13:55:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:55:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:55:00 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:55:00 INFO  Trying to attach to remote debuggee VM localhost:53215 .[0m
+2023.02.22 13:55:00 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:55:05 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:55:05 INFO  Closing debug server tcp://0.0.0.0:53213[0m
+2023.02.22 13:55:36 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:55:36 INFO  time: compiled advance-scala in 0.39s[0m
+2023.02.22 13:55:38 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 5m 19.426s)[0m
+2023.02.22 13:55:38 INFO  Configured debugger context in 534 milliseconds[0m
+2023.02.22 13:55:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:55:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:55:38 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:55:38 INFO  Trying to attach to remote debuggee VM localhost:53235 .[0m
+2023.02.22 13:55:38 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:55:38 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:55:38 INFO  Closing debug server tcp://0.0.0.0:53232[0m
+2023.02.22 13:55:45 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:55:45 INFO  time: compiled advance-scala in 0.34s[0m
+2023.02.22 13:55:56 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:55:56 INFO  time: compiled advance-scala in 0.6s[0m
+2023.02.22 13:55:58 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 5m 39.396s)[0m
+2023.02.22 13:55:58 INFO  Configured debugger context in 353 milliseconds[0m
+2023.02.22 13:55:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:55:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:55:58 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:55:58 INFO  Trying to attach to remote debuggee VM localhost:53254 .[0m
+2023.02.22 13:55:58 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:55:58 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:55:58 INFO  Closing debug server tcp://0.0.0.0:53252[0m
+2023.02.22 13:56:17 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:56:17 INFO  time: compiled advance-scala in 0.37s[0m
+2023.02.22 13:56:19 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:56:19 INFO  time: compiled advance-scala in 0.35s[0m
+2023.02.22 13:57:00 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:00 INFO  time: compiled advance-scala in 0.36s[0m
+2023.02.22 13:57:00 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 6m 42.054s)[0m
+2023.02.22 13:57:01 INFO  Configured debugger context in 477 milliseconds[0m
+2023.02.22 13:57:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:57:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:57:01 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:57:01 INFO  Trying to attach to remote debuggee VM localhost:53441 .[0m
+2023.02.22 13:57:01 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:57:01 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:57:01 INFO  Closing debug server tcp://0.0.0.0:53438[0m
+2023.02.22 13:57:09 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:09 INFO  time: compiled advance-scala in 0.33s[0m
+2023.02.22 13:57:11 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:11 INFO  time: compiled advance-scala in 0.33s[0m
+2023.02.22 13:57:12 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 6m 53.936s)[0m
+2023.02.22 13:57:12 INFO  Configured debugger context in 353 milliseconds[0m
+2023.02.22 13:57:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:57:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:57:13 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:57:12 INFO  Trying to attach to remote debuggee VM localhost:53460 .[0m
+2023.02.22 13:57:12 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:57:13 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:57:12 INFO  Closing debug server tcp://0.0.0.0:53458[0m
+2023.02.22 13:57:15 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:15 INFO  time: compiled advance-scala in 0.33s[0m
+2023.02.22 13:57:17 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 6m 58.4s)[0m
+2023.02.22 13:57:17 INFO  Configured debugger context in 355 milliseconds[0m
+2023.02.22 13:57:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:57:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:57:17 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:57:17 INFO  Trying to attach to remote debuggee VM localhost:53476 .[0m
+2023.02.22 13:57:17 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:57:17 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:57:17 INFO  Closing debug server tcp://0.0.0.0:53473[0m
+2023.02.22 13:57:25 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:25 INFO  time: compiled advance-scala in 68ms[0m
+2023.02.22 13:57:30 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:30 INFO  time: compiled advance-scala in 0.31s[0m
+2023.02.22 13:57:32 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 7m 13.085s)[0m
+2023.02.22 13:57:32 INFO  Configured debugger context in 373 milliseconds[0m
+2023.02.22 13:57:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 13:57:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 13:57:32 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 13:57:32 INFO  Trying to attach to remote debuggee VM localhost:53495 .[0m
+2023.02.22 13:57:32 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 13:57:32 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 13:57:32 INFO  Closing debug server tcp://0.0.0.0:53493[0m
+2023.02.22 13:57:55 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:57:55 INFO  time: compiled advance-scala in 0.35s[0m
+2023.02.22 13:58:06 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:58:06 INFO  time: compiled advance-scala in 0.35s[0m
+2023.02.22 13:58:12 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:58:12 INFO  time: compiled advance-scala in 0.33s[0m
+2023.02.22 13:58:21 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:58:21 INFO  time: compiled advance-scala in 0.35s[0m
+Feb 22, 2023 1:58:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 645, count -1, length 656
+Feb 22, 2023 1:58:24 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 645, count -1, length 656
+2023.02.22 13:58:44 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:58:44 INFO  time: compiled advance-scala in 60ms[0m
+2023.02.22 13:58:46 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:58:46 INFO  time: compiled advance-scala in 0.36s[0m
+2023.02.22 13:59:05 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:59:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:05 INFO  time: compiled advance-scala in 0.32s[0m
+2023.02.22 13:59:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:06 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:08 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:11 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:11 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:12 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:12 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:13 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:14 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:14 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala:34:3: stale bloop error: class Crocodile needs to be abstract. Missing implementation for:
+  def eat(a: Recap.Animal): Unit // inherited from trait Carnivore
+  class Crocodile extends Animal with Carnivore {}
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.22 13:59:14 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala:34:3: stale bloop error: class Crocodile needs to be abstract. Missing implementation for:
+  def eat(a: Recap.Animal): Unit // inherited from trait Carnivore
+  class Crocodile extends Animal with Carnivore {}
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.22 13:59:14 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:15 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:16 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:17 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:18 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:59:18 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 13:59:18 INFO  time: compiled advance-scala in 0.38s[0m
+2023.02.22 13:59:23 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:59:23 INFO  time: compiled advance-scala in 0.38s[0m
+2023.02.22 13:59:54 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:59:54 INFO  time: compiled advance-scala in 48ms[0m
+2023.02.22 13:59:56 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 13:59:56 INFO  time: compiled advance-scala in 0.34s[0m
+2023.02.22 14:00:08 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:00:08 INFO  time: compiled advance-scala in 0.36s[0m
+2023.02.22 14:01:50 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:01:50 INFO  time: compiled advance-scala in 0.39s[0m
+2023.02.22 14:02:29 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:02:29 INFO  time: compiled advance-scala in 0.41s[0m
+2023.02.22 14:02:36 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:02:36 INFO  time: compiled advance-scala in 0.4s[0m
+2023.02.22 14:02:51 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:02:51 INFO  time: compiled advance-scala in 0.4s[0m
+2023.02.22 14:03:05 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:03:05 INFO  time: compiled advance-scala in 0.41s[0m
+2023.02.22 14:03:26 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:03:26 INFO  time: compiled advance-scala in 0.59s[0m
+2023.02.22 14:03:53 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:03:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:03:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:03:53 INFO  time: compiled advance-scala in 0.93s[0m
+2023.02.22 14:04:00 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:04:00 INFO  time: compiled advance-scala in 0.42s[0m
+2023.02.22 14:04:02 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:04:03 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:04:03 INFO  time: compiled advance-scala in 0.43s[0m
+Feb 22, 2023 2:04:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2810
+2023.02.22 14:04:25 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:04:25 INFO  time: compiled advance-scala in 0.38s[0m
+2023.02.22 14:04:30 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:04:30 INFO  time: compiled advance-scala in 0.4s[0m
+2023.02.22 14:05:45 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:05:45 INFO  time: compiled advance-scala in 0.46s[0m
+2023.02.22 14:05:56 INFO  time: code lens generation in 1.67s[0m
+2023.02.22 14:06:08 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:06:08 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:06:08 INFO  time: compiled advance-scala in 0.43s[0m
+2023.02.22 14:11:39 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:11:39 INFO  time: compiled advance-scala in 0.44s[0m
+2023.02.22 14:11:58 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:11:58 INFO  time: compiled advance-scala in 62ms[0m
+2023.02.22 14:11:58 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:11:59 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:00 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:00 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:04 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:07 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:09 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:11 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:12 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:14 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:15 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:16 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:16 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:16 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:16 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:17 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:12:17 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:12:17 INFO  time: compiled advance-scala in 0.48s[0m
+2023.02.22 14:12:23 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:12:23 INFO  time: compiled advance-scala in 0.46s[0m
+2023.02.22 14:12:25 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 22m 6.516s)[0m
+2023.02.22 14:12:25 INFO  Configured debugger context in 500 milliseconds[0m
+2023.02.22 14:12:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:12:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:12:26 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:12:25 INFO  Trying to attach to remote debuggee VM localhost:54271 .[0m
+2023.02.22 14:12:25 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:12:25 ERROR Exception in thread "main" java.lang.RuntimeException[0m
+2023.02.22 14:12:25 ERROR 	at Recap$.delayedEndpoint$Recap$1(Recap.scala:59)[0m
+2023.02.22 14:12:25 ERROR 	at Recap$delayedInit$body.apply(Recap.scala:2)[0m
+2023.02.22 14:12:25 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.02.22 14:12:25 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.02.22 14:12:25 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.02.22 14:12:25 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.02.22 14:12:25 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.02.22 14:12:25 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.02.22 14:12:25 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.02.22 14:12:25 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.02.22 14:12:25 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.02.22 14:12:25 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.02.22 14:12:25 ERROR 	at Recap$.main(Recap.scala:2)[0m
+2023.02.22 14:12:25 ERROR 	at Recap.main(Recap.scala)[0m
+2023.02.22 14:12:25 INFO  Closing debug server tcp://0.0.0.0:54268[0m
+2023.02.22 14:12:26 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:12:36 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:12:36 INFO  time: compiled advance-scala in 0.47s[0m
+2023.02.22 14:12:37 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 22m 19.031s)[0m
+2023.02.22 14:12:37 INFO  Configured debugger context in 362 milliseconds[0m
+2023.02.22 14:12:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:12:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:12:38 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:12:37 INFO  Trying to attach to remote debuggee VM localhost:54285 .[0m
+2023.02.22 14:12:37 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:12:37 ERROR Exception in thread "main" java.lang.RuntimeException[0m
+2023.02.22 14:12:37 ERROR 	at Recap$.delayedEndpoint$Recap$1(Recap.scala:59)[0m
+2023.02.22 14:12:37 ERROR 	at Recap$delayedInit$body.apply(Recap.scala:2)[0m
+2023.02.22 14:12:37 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.02.22 14:12:37 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.02.22 14:12:37 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.02.22 14:12:37 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.02.22 14:12:37 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.02.22 14:12:37 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.02.22 14:12:37 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.02.22 14:12:37 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.02.22 14:12:37 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.02.22 14:12:37 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.02.22 14:12:37 ERROR 	at Recap$.main(Recap.scala:2)[0m
+2023.02.22 14:12:37 ERROR 	at Recap.main(Recap.scala)[0m
+2023.02.22 14:12:38 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:12:37 INFO  Closing debug server tcp://0.0.0.0:54283[0m
+2023.02.22 14:12:53 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:12:53 INFO  time: compiled advance-scala in 0.41s[0m
+2023.02.22 14:12:55 INFO  Configured debugger context in 364 milliseconds[0m
+2023.02.22 14:12:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:12:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:12:55 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:12:55 INFO  Trying to attach to remote debuggee VM localhost:54301 .[0m
+2023.02.22 14:12:55 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:12:55 ERROR Exception in thread "main" java.lang.RuntimeException[0m
+2023.02.22 14:12:55 ERROR 	at Recap$.delayedEndpoint$Recap$1(Recap.scala:59)[0m
+2023.02.22 14:12:55 ERROR 	at Recap$delayedInit$body.apply(Recap.scala:2)[0m
+2023.02.22 14:12:55 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.02.22 14:12:55 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.02.22 14:12:55 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.02.22 14:12:55 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.02.22 14:12:55 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.02.22 14:12:55 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.02.22 14:12:55 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.02.22 14:12:55 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.02.22 14:12:55 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.02.22 14:12:55 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.02.22 14:12:55 ERROR 	at Recap$.main(Recap.scala:2)[0m
+2023.02.22 14:12:55 ERROR 	at Recap.main(Recap.scala)[0m
+2023.02.22 14:12:55 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:12:55 INFO  Closing debug server tcp://0.0.0.0:54299[0m
+2023.02.22 14:12:59 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:12:59 INFO  time: compiled advance-scala in 0.4s[0m
+2023.02.22 14:12:59 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 22m 41.059s)[0m
+2023.02.22 14:13:00 INFO  Configured debugger context in 355 milliseconds[0m
+2023.02.22 14:13:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:13:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:13:00 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:13:00 INFO  Trying to attach to remote debuggee VM localhost:54316 .[0m
+2023.02.22 14:13:00 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:13:00 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:13:00 INFO  Closing debug server tcp://0.0.0.0:54313[0m
+2023.02.22 14:13:06 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:13:06 INFO  time: compiled advance-scala in 0.44s[0m
+2023.02.22 14:13:06 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 22m 48.778s)[0m
+2023.02.22 14:13:08 INFO  Configured debugger context in 360 milliseconds[0m
+2023.02.22 14:13:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:13:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:13:08 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:13:08 INFO  Trying to attach to remote debuggee VM localhost:54331 .[0m
+2023.02.22 14:13:08 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:13:08 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:13:08 INFO  Closing debug server tcp://0.0.0.0:54328[0m
+2023.02.22 14:13:39 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:13:39 INFO  time: compiled advance-scala in 0.46s[0m
+Feb 22, 2023 2:13:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3718
+2023.02.22 14:14:04 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:14:05 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:14:04 INFO  time: compiled advance-scala in 0.47s[0m
+2023.02.22 14:14:12 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:14:12 INFO  time: compiled advance-scala in 0.43s[0m
+Feb 22, 2023 2:15:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1938, count -1, length 1951
+2023.02.22 14:15:27 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:15:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:15:27 INFO  time: compiled advance-scala in 0.48s[0m
+2023.02.22 14:15:34 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:15:34 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:15:34 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:15:34 INFO  time: compiled advance-scala in 0.42s[0m
+2023.02.22 14:15:34 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 25m 16.129s)[0m
+2023.02.22 14:15:35 INFO  Configured debugger context in 385 milliseconds[0m
+2023.02.22 14:15:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2023.02.22 14:15:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2023.02.22 14:15:35 INFO  Starting debug proxy for [Recap][0m
+2023.02.22 14:15:35 INFO  Trying to attach to remote debuggee VM localhost:54369 .[0m
+2023.02.22 14:15:35 INFO  Attaching to debuggee VM succeeded.[0m
+2023.02.22 14:15:35 INFO  Canceling debug proxy for [Recap][0m
+2023.02.22 14:15:35 INFO  Closing debug server tcp://0.0.0.0:54366[0m
+2023.02.22 14:15:46 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:15:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:15:46 INFO  time: compiled advance-scala in 0.42s[0m
+2023.02.22 14:16:04 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:16:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:16:04 INFO  time: compiled advance-scala in 0.51s[0m
+2023.02.22 14:16:35 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:16:35 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:16:35 INFO  time: compiled advance-scala in 0.5s[0m
+2023.02.22 14:16:45 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:16:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:16:45 INFO  time: compiled advance-scala in 0.45s[0m
+2023.02.22 14:17:24 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:17:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:17:24 INFO  time: compiled advance-scala in 0.49s[0m
+2023.02.22 14:17:30 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:17:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:17:30 INFO  time: compiled advance-scala in 0.43s[0m
+2023.02.22 14:18:09 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala:102: error: [dialect scala213] => expected but = found
+    case _ = ""
+           ^[0m
+2023.02.22 14:18:09 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:18:09 INFO  time: compiled advance-scala in 33ms[0m
+2023.02.22 14:18:11 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:18:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:18:11 INFO  time: compiled advance-scala in 0.47s[0m
+2023.02.22 14:18:18 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:18:18 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala[0m
+2023.02.22 14:18:18 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:18:18 INFO  time: compiled advance-scala in 0.43s[0m
+Feb 22, 2023 2:18:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4876
+2023.02.22 14:18:59 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:18:59 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:18:59 INFO  time: compiled advance-scala in 0.58s[0m
+2023.02.22 14:19:07 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:19:07 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:19:07 INFO  time: compiled advance-scala in 0.48s[0m
+2023.02.22 14:19:33 INFO  compiling advance-scala (1 scala source)[0m
+2023.02.22 14:19:33 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.02.22 14:19:33 INFO  time: compiled advance-scala in 0.46s[0m
+2023.02.22 14:25:41 INFO  shutting down Metals[0m
+2023.02.22 14:25:41 INFO  Shut down connection with build server.[0m
+2023.02.22 14:25:41 INFO  Shut down connection with build server.[0m
+2023.02.22 14:25:41 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2023.02.23 10:03:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/lsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.23 10:03:31 INFO  logging to file /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/metals.log
+2023.02.23 10:03:31 INFO  Started: Metals version 0.11.10 in workspace '/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/andrejnevesjr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 10:03:32 INFO  time: initialize in 0.7s
+2023.02.23 10:03:33 INFO  Attempting to connect to the build server...
+2023.02.23 10:03:33 INFO  skipping build import with status 'Installed'
+2023.02.23 10:03:33 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.23 10:03:36 INFO  no build target found for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/Recap.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.23 10:03:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 10:03:36 INFO  Attempting to connect to the build server...
+2023.02.23 10:03:36 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.23 10:03:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 10:03:36 INFO  time: Connected to build server in 3.29s
+2023.02.23 10:03:36 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 10:03:37 INFO  time: Imported build in 0.17s
+2023.02.23 10:03:38 INFO  time: code lens generation in 4.35s
+2023.02.23 10:03:40 INFO  time: indexed workspace in 2.7s
+2023.02.23 10:41:42 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:41:44 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.02.23 10:41:44 INFO  time: compiled advance-scala in 3.47s
+2023.02.23 10:42:05 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:42:05 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 10:42:09 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:42:09 INFO  time: compiled advance-scala in 0.33s
+2023.02.23 10:42:19 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:42:19 INFO  time: compiled advance-scala in 0.27s
+2023.02.23 10:42:27 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:42:27 INFO  time: compiled advance-scala in 0.27s
+Feb 23, 2023 10:42:36 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 23, 2023 10:42:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.02.23 10:42:54 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:42:54 INFO  time: compiled advance-scala in 0.36s
+2023.02.23 10:43:01 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala:6: error: [dialect scala213] ; expected but integer constant found
+  singleArgumentMethod 1
+                       ^
+2023.02.23 10:43:01 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:43:01 INFO  time: compiled advance-scala in 65ms
+2023.02.23 10:43:12 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala:6: error: [dialect scala213] ; expected but integer constant found
+  val descriptio = singleArgumentMethod 1
+                                        ^
+2023.02.23 10:43:12 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:43:12 INFO  time: compiled advance-scala in 29ms
+2023.02.23 10:43:20 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:43:20 INFO  time: compiled advance-scala in 0.46s
+2023.02.23 10:43:29 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:43:29 INFO  time: compiled advance-scala in 0.29s
+2023.02.23 10:44:52 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:44:52 INFO  time: compiled advance-scala in 0.34s
+Feb 23, 2023 10:44:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 415
+2023.02.23 10:45:12 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:12 INFO  time: compiled advance-scala in 0.34s
+2023.02.23 10:45:16 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:16 INFO  time: compiled advance-scala in 0.31s
+2023.02.23 10:45:18 INFO  Configured debugger context in 1 second
+2023.02.23 10:45:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:45:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:45:18 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:45:18 INFO  Trying to attach to remote debuggee VM localhost:50809 .
+2023.02.23 10:45:18 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:45:19 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:45:18 INFO  Closing debug server tcp://0.0.0.0:50804
+Feb 23, 2023 10:45:19 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.02.23 10:45:42 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:42 INFO  time: compiled advance-scala in 74ms
+Feb 23, 2023 10:45:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:861)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.23 10:45:42 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:42 INFO  time: compiled advance-scala in 46ms
+2023.02.23 10:45:47 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:47 INFO  time: compiled advance-scala in 61ms
+2023.02.23 10:45:54 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:45:54 INFO  time: compiled advance-scala in 0.38s
+2023.02.23 10:45:56 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 42m 19.099s)
+2023.02.23 10:45:56 INFO  Configured debugger context in 403 milliseconds
+2023.02.23 10:45:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:45:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:45:56 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:45:56 INFO  Trying to attach to remote debuggee VM localhost:50833 .
+2023.02.23 10:45:56 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:45:56 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:45:56 INFO  Closing debug server tcp://0.0.0.0:50829
+2023.02.23 10:46:03 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:03 INFO  time: compiled advance-scala in 0.33s
+2023.02.23 10:46:04 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 42m 27.479s)
+2023.02.23 10:46:04 INFO  Configured debugger context in 391 milliseconds
+2023.02.23 10:46:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:46:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:46:04 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:46:04 INFO  Trying to attach to remote debuggee VM localhost:50847 .
+2023.02.23 10:46:04 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:46:05 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:46:04 INFO  Closing debug server tcp://0.0.0.0:50845
+2023.02.23 10:46:19 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:19 INFO  time: compiled advance-scala in 0.33s
+2023.02.23 10:46:37 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:37 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:46:37 INFO  time: compiled advance-scala in 0.31s
+2023.02.23 10:46:48 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:48 INFO  time: compiled advance-scala in 0.3s
+2023.02.23 10:46:52 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:52 INFO  time: compiled advance-scala in 0.51s
+2023.02.23 10:46:54 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:46:54 INFO  time: compiled advance-scala in 0.33s
+Feb 23, 2023 10:47:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 876
+2023.02.23 10:47:06 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:47:06 INFO  time: compiled advance-scala in 0.28s
+2023.02.23 10:47:12 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:47:12 INFO  time: compiled advance-scala in 0.34s
+2023.02.23 10:47:23 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:47:23 INFO  time: compiled advance-scala in 0.34s
+2023.02.23 10:47:51 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:47:52 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:47:51 INFO  time: compiled advance-scala in 0.35s
+2023.02.23 10:48:23 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:48:23 INFO  time: compiled advance-scala in 0.31s
+2023.02.23 10:48:57 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:48:57 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 10:49:24 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:49:24 INFO  time: compiled advance-scala in 0.33s
+2023.02.23 10:49:25 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 45m 48.758s)
+2023.02.23 10:49:25 INFO  Configured debugger context in 356 milliseconds
+2023.02.23 10:49:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:49:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:49:26 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:49:25 INFO  Trying to attach to remote debuggee VM localhost:50917 .
+2023.02.23 10:49:25 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:49:26 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:49:25 INFO  Closing debug server tcp://0.0.0.0:50914
+2023.02.23 10:50:07 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:50:07 INFO  time: compiled advance-scala in 0.36s
+2023.02.23 10:50:53 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:50:53 INFO  time: compiled advance-scala in 45ms
+2023.02.23 10:50:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:57 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:50:57 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:50:57 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 10:51:54 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:51:54 INFO  time: compiled advance-scala in 0.35s
+2023.02.23 10:51:56 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 48m 19.385s)
+2023.02.23 10:51:56 INFO  Configured debugger context in 353 milliseconds
+2023.02.23 10:51:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:51:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:51:56 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:51:56 INFO  Trying to attach to remote debuggee VM localhost:50949 .
+2023.02.23 10:51:56 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:51:57 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:51:56 INFO  Closing debug server tcp://0.0.0.0:50946
+2023.02.23 10:52:03 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 48m 26.377s)
+2023.02.23 10:52:03 INFO  Configured debugger context in 356 milliseconds
+2023.02.23 10:52:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:52:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:52:03 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:03 INFO  Trying to attach to remote debuggee VM localhost:50960 .
+2023.02.23 10:52:03 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:52:04 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:03 INFO  Closing debug server tcp://0.0.0.0:50957
+2023.02.23 10:52:36 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:52:36 INFO  time: compiled advance-scala in 0.35s
+2023.02.23 10:52:49 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:52:49 INFO  time: compiled advance-scala in 0.35s
+2023.02.23 10:52:51 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 49m 14.942s)
+2023.02.23 10:52:51 INFO  Configured debugger context in 353 milliseconds
+2023.02.23 10:52:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:52:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:52:52 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:51 INFO  Trying to attach to remote debuggee VM localhost:50986 .
+2023.02.23 10:52:51 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:52:52 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:51 INFO  Closing debug server tcp://0.0.0.0:50984
+2023.02.23 10:52:57 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 49m 20.2s)
+2023.02.23 10:52:57 INFO  Configured debugger context in 521 milliseconds
+2023.02.23 10:52:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:52:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:52:57 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:57 INFO  Trying to attach to remote debuggee VM localhost:50997 .
+2023.02.23 10:52:57 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:52:57 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:52:57 INFO  Closing debug server tcp://0.0.0.0:50995
+2023.02.23 10:55:13 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:55:13 INFO  time: compiled advance-scala in 0.63s
+2023.02.23 10:55:36 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:55:36 INFO  time: compiled advance-scala in 51ms
+2023.02.23 10:55:41 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:55:41 INFO  time: compiled advance-scala in 0.4s
+2023.02.23 10:55:45 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:55:45 INFO  time: compiled advance-scala in 0.38s
+2023.02.23 10:55:48 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 52m 11.71s)
+2023.02.23 10:55:48 INFO  Configured debugger context in 469 milliseconds
+2023.02.23 10:55:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:55:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:55:49 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:55:48 INFO  Trying to attach to remote debuggee VM localhost:51033 .
+2023.02.23 10:55:48 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:55:49 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:55:48 INFO  Closing debug server tcp://0.0.0.0:51031
+2023.02.23 10:55:57 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:55:57 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 10:57:01 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:57:01 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:57:01 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 10:57:29 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:57:29 INFO  time: compiled advance-scala in 0.38s
+2023.02.23 10:57:49 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:57:49 INFO  time: compiled advance-scala in 0.38s
+2023.02.23 10:57:51 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 54m 14.569s)
+2023.02.23 10:57:51 INFO  Configured debugger context in 491 milliseconds
+2023.02.23 10:57:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:57:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:57:52 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:57:51 INFO  Trying to attach to remote debuggee VM localhost:51066 .
+2023.02.23 10:57:51 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:57:52 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:57:51 INFO  Closing debug server tcp://0.0.0.0:51062
+2023.02.23 10:58:17 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:58:17 INFO  time: compiled advance-scala in 50ms
+2023.02.23 10:58:17 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:58:18 INFO  time: compiled advance-scala in 0.4s
+2023.02.23 10:58:18 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 54m 42.409s)
+2023.02.23 10:58:19 INFO  Configured debugger context in 434 milliseconds
+2023.02.23 10:58:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.23 10:58:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.23 10:58:19 INFO  Starting debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:58:19 INFO  Trying to attach to remote debuggee VM localhost:51085 .
+2023.02.23 10:58:19 INFO  Attaching to debuggee VM succeeded.
+2023.02.23 10:58:20 INFO  Canceling debug proxy for [lectures.part1.DarkSugars]
+2023.02.23 10:58:19 INFO  Closing debug server tcp://0.0.0.0:51082
+2023.02.23 10:58:33 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:58:33 INFO  time: compiled advance-scala in 0.41s
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1419, 1419, 1442)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1419, 1419, 1443)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1419, 1419, 1436)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1419, 1419, 1437)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,String]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1419, 1419, 1441)
+2023.02.23 10:58:56 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:58:56 INFO  time: compiled advance-scala in 54ms
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,String]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1420, 1420, 1442)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,String]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1420, 1420, 1442)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala in lectures.part1.DarkSugars.Composite[Int,String]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala, 1420, 1420, 1442)
+2023.02.23 10:58:59 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:58:59 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 10:59:23 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:59:23 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 10:59:34 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:59:34 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 10:59:42 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:59:42 INFO  time: compiled advance-scala in 45ms
+2023.02.23 10:59:43 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:59:44 INFO  compiling advance-scala (1 scala source)
+2023.02.23 10:59:44 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 10:59:44 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 11:00:16 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:00:16 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 11:00:24 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:00:24 INFO  time: compiled advance-scala in 0.36s
+2023.02.23 11:00:36 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:00:36 INFO  time: compiled advance-scala in 0.4s
+2023.02.23 11:00:46 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:00:46 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 11:00:46 INFO  time: compiled advance-scala in 0.39s
+Feb 23, 2023 11:01:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3778
+2023.02.23 11:01:18 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:01:18 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 11:02:03 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:02:03 INFO  time: compiled advance-scala in 0.41s
+2023.02.23 11:06:28 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:06:28 INFO  time: compiled advance-scala in 0.8s
+2023.02.23 11:06:28 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:06:29 INFO  time: compiled advance-scala in 0.12s
+2023.02.23 11:06:47 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:06:47 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala
+2023.02.23 11:06:47 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 11:07:00 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:07:00 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 11:07:12 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:07:12 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 11:07:24 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala:74: error: [dialect scala213] identifier expected but } found
+  }
+  ^
+2023.02.23 11:07:24 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:07:24 INFO  time: compiled advance-scala in 23ms
+2023.02.23 11:07:25 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/DarkSugars.scala:74: error: [dialect scala213] identifier expected but } found
+  }
+  ^
+2023.02.23 11:07:25 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:07:25 INFO  time: compiled advance-scala in 27ms
+2023.02.23 11:07:51 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:07:51 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 11:08:22 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:08:22 INFO  time: compiled advance-scala in 0.38s
+2023.02.23 11:08:55 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:08:55 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 11:09:06 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:09:06 INFO  time: compiled advance-scala in 0.37s
+2023.02.23 11:10:16 INFO  compiling advance-scala (1 scala source)
+2023.02.23 11:10:16 INFO  time: compiled advance-scala in 0.39s
+2023.02.23 20:01:45 INFO  shutting down Metals
+2023.02.23 20:01:45 INFO  Shut down connection with build server.
+2023.02.23 20:01:45 INFO  Shut down connection with build server.
+2023.02.27 09:41:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/lsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.27 09:41:23 INFO  logging to file /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/metals.log
+2023.02.27 09:41:23 INFO  Started: Metals version 0.11.10 in workspace '/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/andrejnevesjr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.27 09:41:24 INFO  time: initialize in 0.7s
+2023.02.27 09:41:25 INFO  Attempting to connect to the build server...
+2023.02.27 09:41:25 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.27 09:41:25 INFO  skipping build import with status 'Installed'
+2023.02.27 09:41:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.27 09:41:27 INFO  Attempting to connect to the build server...
+2023.02.27 09:41:27 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.27 09:41:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.27 09:41:27 INFO  time: Connected to build server in 2.38s
+2023.02.27 09:41:27 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.27 09:41:30 INFO  time: indexed workspace in 2.48s
+2023.02.27 10:18:31 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:18:34 INFO  time: compiled advance-scala in 2.05s
+2023.02.27 10:18:38 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:18:38 INFO  time: compiled advance-scala in 0.49s
+2023.02.27 10:19:50 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:19:50 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:19:50 INFO  time: compiled advance-scala in 0.54s
+Feb 27, 2023 10:20:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 429
+Feb 27, 2023 10:20:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+2023.02.27 10:20:25 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:20:25 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 10:20:54 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:20:54 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 10:21:03 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:21:03 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:21:03 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 10:21:07 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:21:07 INFO  time: compiled advance-scala in 0.39s
+Feb 27, 2023 10:21:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 745
+2023.02.27 10:21:51 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:21:51 INFO  time: compiled advance-scala in 77ms
+2023.02.27 10:22:08 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:22:08 INFO  time: compiled advance-scala in 0.51s
+2023.02.27 10:22:10 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:22:10 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:22:10 INFO  time: compiled advance-scala in 0.39s
+Feb 27, 2023 10:22:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1039
+2023.02.27 10:23:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:02 INFO  time: compiled advance-scala in 58ms
+Feb 27, 2023 10:23:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1196
+2023.02.27 10:23:32 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:32 INFO  time: compiled advance-scala in 45ms
+2023.02.27 10:23:32 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:33 INFO  time: compiled advance-scala in 35ms
+2023.02.27 10:23:33 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:33 INFO  time: compiled advance-scala in 41ms
+2023.02.27 10:23:41 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:41 INFO  time: compiled advance-scala in 0.53s
+Feb 27, 2023 10:23:42 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.02.27 10:23:49 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:23:49 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 10:23:51 INFO  Configured debugger context in 1 second
+2023.02.27 10:23:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:23:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:23:51 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:23:51 INFO  Trying to attach to remote debuggee VM localhost:51250 .
+2023.02.27 10:23:51 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:23:51 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:23:51 INFO  Closing debug server tcp://0.0.0.0:51246
+Feb 27, 2023 10:23:51 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:152)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:68)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2023.02.27 10:25:28 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:25:28 INFO  time: compiled advance-scala in 0.39s
+2023.02.27 10:25:34 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:25:34 INFO  time: compiled advance-scala in 0.35s
+2023.02.27 10:25:36 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 44m 8.601s)
+2023.02.27 10:25:36 INFO  Configured debugger context in 598 milliseconds
+2023.02.27 10:25:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:25:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:25:36 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:25:36 INFO  Trying to attach to remote debuggee VM localhost:51279 .
+2023.02.27 10:25:36 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:25:43 ERROR Exception in thread "main" scala.MatchError: lectures.part1.AdvancedScalaMatching$Person@5bfbf16f (of class lectures.part1.AdvancedScalaMatching$Person)
+2023.02.27 10:25:43 ERROR 	at lectures.part1.AdvancedScalaMatching$.delayedEndpoint$lectures$part1$AdvancedScalaMatching$1(AdvancedScalaMatching.scala:26)
+2023.02.27 10:25:43 ERROR 	at lectures.part1.AdvancedScalaMatching$delayedInit$body.apply(AdvancedScalaMatching.scala:3)
+2023.02.27 10:25:43 INFO  Closing debug server tcp://0.0.0.0:51276
+2023.02.27 10:25:43 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:25:43 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.27 10:25:43 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.27 10:25:43 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.27 10:25:43 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.27 10:25:43 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.27 10:25:43 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.27 10:25:43 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.27 10:25:43 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.27 10:25:43 ERROR 	at scala.App.main(App.scala:76)
+2023.02.27 10:25:43 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.27 10:25:43 ERROR 	at lectures.part1.AdvancedScalaMatching$.main(AdvancedScalaMatching.scala:3)
+2023.02.27 10:25:43 ERROR 	at lectures.part1.AdvancedScalaMatching.main(AdvancedScalaMatching.scala)
+Feb 27, 2023 10:25:43 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:210)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:176)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:72)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 18 more
+
+2023.02.27 10:28:12 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:28:12 INFO  time: compiled advance-scala in 47ms
+2023.02.27 10:28:18 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:28:18 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 10:29:07 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:29:07 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 10:29:13 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:29:13 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:29:13 INFO  time: compiled advance-scala in 0.38s
+2023.02.27 10:29:14 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 47m 47.07s)
+2023.02.27 10:29:14 INFO  Configured debugger context in 688 milliseconds
+2023.02.27 10:29:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:29:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:29:15 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:29:14 INFO  Trying to attach to remote debuggee VM localhost:51356 .
+2023.02.27 10:29:14 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:29:20 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:29:20 INFO  time: compiled advance-scala in 0.39s
+2023.02.27 10:29:21 ERROR Exception in thread "main" scala.MatchError: lectures.part1.AdvancedScalaMatching$Person@5bfbf16f (of class lectures.part1.AdvancedScalaMatching$Person)
+2023.02.27 10:29:21 ERROR 	at lectures.part1.AdvancedScalaMatching$.delayedEndpoint$lectures$part1$AdvancedScalaMatching$1(AdvancedScalaMatching.scala:30)
+2023.02.27 10:29:21 ERROR 	at lectures.part1.AdvancedScalaMatching$delayedInit$body.apply(AdvancedScalaMatching.scala:3)
+2023.02.27 10:29:21 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2023.02.27 10:29:21 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2023.02.27 10:29:21 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2023.02.27 10:29:21 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2023.02.27 10:29:21 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2023.02.27 10:29:21 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2023.02.27 10:29:21 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2023.02.27 10:29:21 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2023.02.27 10:29:21 ERROR 	at scala.App.main(App.scala:76)
+2023.02.27 10:29:21 ERROR 	at scala.App.main$(App.scala:74)
+2023.02.27 10:29:21 ERROR 	at lectures.part1.AdvancedScalaMatching$.main(AdvancedScalaMatching.scala:3)
+2023.02.27 10:29:21 ERROR 	at lectures.part1.AdvancedScalaMatching.main(AdvancedScalaMatching.scala)
+2023.02.27 10:29:21 INFO  Closing debug server tcp://0.0.0.0:51352
+Feb 27, 2023 10:29:21 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:72)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2023.02.27 10:29:21 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:29:28 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 48m 1.051s)
+2023.02.27 10:29:28 INFO  Configured debugger context in 394 milliseconds
+2023.02.27 10:29:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:29:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:29:29 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:29:28 INFO  Trying to attach to remote debuggee VM localhost:51372 .
+2023.02.27 10:29:28 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:29:29 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:29:28 INFO  Closing debug server tcp://0.0.0.0:51370
+2023.02.27 10:31:07 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:31:07 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 10:31:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:31:17 INFO  time: compiled advance-scala in 0.34s
+Feb 27, 2023 10:31:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2063
+2023.02.27 10:32:07 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:32:07 INFO  time: compiled advance-scala in 0.34s
+2023.02.27 10:32:09 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:32:09 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:32:09 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 10:32:14 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:32:14 INFO  time: compiled advance-scala in 0.37s
+Feb 27, 2023 10:32:21 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1063, count -1, length 1078
+2023.02.27 10:32:33 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:32:33 INFO  time: compiled advance-scala in 0.34s
+2023.02.27 10:34:38 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:38 INFO  time: compiled advance-scala in 66ms
+2023.02.27 10:34:38 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:40 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:40 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:41 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:42 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:42 INFO  time: compiled advance-scala in 43ms
+2023.02.27 10:34:42 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:42 INFO  time: compiled advance-scala in 34ms
+2023.02.27 10:34:42 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:42 INFO  time: compiled advance-scala in 29ms
+2023.02.27 10:34:43 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:48 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:34:48 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:48 INFO  time: compiled advance-scala in 0.41s
+2023.02.27 10:34:57 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:34:57 INFO  time: compiled advance-scala in 0.37s
+Feb 27, 2023 10:35:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3033
+2023.02.27 10:35:03 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:35:03 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 10:35:03 INFO  time: compiled advance-scala in 0.44s
+2023.02.27 10:35:09 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:35:09 INFO  time: compiled advance-scala in 0.38s
+2023.02.27 10:35:10 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 53m 43.46s)
+2023.02.27 10:35:10 INFO  Configured debugger context in 715 milliseconds
+2023.02.27 10:35:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:35:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:35:11 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:35:10 INFO  Trying to attach to remote debuggee VM localhost:51466 .
+2023.02.27 10:35:10 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:35:11 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:35:10 INFO  Closing debug server tcp://0.0.0.0:51462
+2023.02.27 10:35:22 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:35:22 INFO  time: compiled advance-scala in 0.48s
+2023.02.27 10:35:22 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 53m 55.775s)
+2023.02.27 10:35:23 INFO  Configured debugger context in 359 milliseconds
+2023.02.27 10:35:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:35:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:35:23 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:35:23 INFO  Trying to attach to remote debuggee VM localhost:51479 .
+2023.02.27 10:35:23 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:35:23 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:35:23 INFO  Closing debug server tcp://0.0.0.0:51477
+2023.02.27 10:35:53 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:35:53 INFO  time: compiled advance-scala in 61ms
+2023.02.27 10:35:53 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:35:53 INFO  time: compiled advance-scala in 35ms
+2023.02.27 10:36:00 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:00 INFO  time: compiled advance-scala in 59ms
+2023.02.27 10:36:00 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:00 INFO  time: compiled advance-scala in 33ms
+2023.02.27 10:36:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:02 INFO  time: compiled advance-scala in 28ms
+2023.02.27 10:36:05 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:05 INFO  time: compiled advance-scala in 49ms
+2023.02.27 10:36:05 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:05 INFO  time: compiled advance-scala in 25ms
+2023.02.27 10:36:13 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:13 INFO  time: compiled advance-scala in 52ms
+2023.02.27 10:36:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:17 INFO  time: compiled advance-scala in 41ms
+2023.02.27 10:36:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:17 INFO  time: compiled advance-scala in 26ms
+2023.02.27 10:36:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:17 INFO  time: compiled advance-scala in 26ms
+2023.02.27 10:36:26 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:36:26 INFO  time: compiled advance-scala in 0.39s
+2023.02.27 10:36:41 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 55m 14.445s)
+2023.02.27 10:36:41 INFO  Configured debugger context in 498 milliseconds
+2023.02.27 10:36:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 10:36:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 10:36:42 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:36:41 INFO  Trying to attach to remote debuggee VM localhost:51532 .
+2023.02.27 10:36:41 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 10:36:42 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 10:36:41 INFO  Closing debug server tcp://0.0.0.0:51529
+2023.02.27 10:37:21 INFO  compiling advance-scala (1 scala source)
+2023.02.27 10:37:21 INFO  time: compiled advance-scala in 0.37s
+2023.02.27 12:50:03 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:50:03 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 12:50:17 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:65: error: [dialect scala213] case classes must have a parameter list; try 'case class Or()' or 'case object Or'
+}
+^
+2023.02.27 12:50:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:50:17 INFO  time: compiled advance-scala in 27ms
+2023.02.27 12:50:18 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:21 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:21 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:22 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:23 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:24 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:25 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:25 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:26 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:29 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:29 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:50:29 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:50:29 INFO  time: compiled advance-scala in 0.54s
+2023.02.27 12:50:56 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:65: error: [dialect scala213] = expected but } found
+}
+^
+2023.02.27 12:50:56 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:50:56 INFO  time: compiled advance-scala in 32ms
+2023.02.27 12:51:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:51:02 INFO  time: compiled advance-scala in 0.46s
+Feb 27, 2023 12:51:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3587
+2023.02.27 12:51:34 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:65: error: [dialect scala213] => expected but = found
+    case Or(number, sting) = > s"$number is written as $string"
+                           ^
+2023.02.27 12:51:34 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:51:34 INFO  time: compiled advance-scala in 27ms
+2023.02.27 12:51:34 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:51:40 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:51:40 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:51:40 INFO  time: compiled advance-scala in 64ms
+2023.02.27 12:51:40 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:51:46 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:51:46 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:51:46 INFO  time: compiled advance-scala in 0.41s
+2023.02.27 12:51:57 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:65: error: [dialect scala213] => expected but ) found
+    case number Or string) => s"$number is written as $string"
+                         ^
+2023.02.27 12:51:57 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:51:57 INFO  time: compiled advance-scala in 22ms
+2023.02.27 12:52:00 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:00 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 12:52:06 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:06 INFO  time: compiled advance-scala in 0.42s
+2023.02.27 12:52:06 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 10m 39.534s)
+2023.02.27 12:52:07 INFO  Configured debugger context in 496 milliseconds
+2023.02.27 12:52:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 12:52:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 12:52:07 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 12:52:07 INFO  Trying to attach to remote debuggee VM localhost:53434 .
+2023.02.27 12:52:07 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 12:52:07 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 12:52:07 INFO  Closing debug server tcp://0.0.0.0:53431
+2023.02.27 12:52:30 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:30 INFO  time: compiled advance-scala in 0.41s
+Feb 27, 2023 12:52:31 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 27, 2023 12:52:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3884
+2023.02.27 12:52:56 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:56 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:52:56 INFO  time: compiled advance-scala in 0.49s
+2023.02.27 12:52:57 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:57 INFO  time: compiled advance-scala in 0.45s
+2023.02.27 12:52:59 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:52:59 INFO  time: compiled advance-scala in 0.16s
+2023.02.27 12:53:05 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:53:05 INFO  time: compiled advance-scala in 49ms
+2023.02.27 12:54:11 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:54:11 INFO  time: compiled advance-scala in 0.46s
+2023.02.27 12:55:18 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:55:18 INFO  time: compiled advance-scala in 0.41s
+2023.02.27 12:55:42 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:55:42 INFO  time: compiled advance-scala in 0.41s
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1753)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1747)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1750)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Nothing]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1752)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Nothing]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1752)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Nothing]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1752)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Nothing]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1737, 1737, 1752)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1835, 1835, 1851)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[A]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1835, 1835, 1844)
+2023.02.27 12:56:39 INFO  compiling advance-scala (1 scala source)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[A]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 1841, 1841, 1850)
+2023.02.27 12:56:39 INFO  time: compiled advance-scala in 0.44s
+2023.02.27 12:57:39 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:84: error: [dialect scala213] : expected but [ found
+    def unapplySeq[A](MyList[A]): Option[Seq[A]]
+                            ^
+2023.02.27 12:57:39 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:57:39 INFO  time: compiled advance-scala in 34ms
+2023.02.27 12:57:39 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:42 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:47 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:48 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:57:48 INFO  time: compiled advance-scala in 49ms
+2023.02.27 12:57:48 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:54 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:55 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 12:57:55 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:57:55 INFO  time: compiled advance-scala in 0.86s
+2023.02.27 12:58:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:58:17 INFO  time: compiled advance-scala in 61ms
+2023.02.27 12:58:30 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:58:30 INFO  time: compiled advance-scala in 0.48s
+2023.02.27 12:58:46 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:58:46 INFO  time: compiled advance-scala in 76ms
+2023.02.27 12:58:49 INFO  compiling advance-scala (1 scala source)
+2023.02.27 12:58:49 INFO  time: compiled advance-scala in 0.53s
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2056)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2049)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[<error>]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2050)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Int]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2051)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Int]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2051)
+something's wrong: no file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala in lectures.part1.AdvancedScalaMatching.MyList[Int]RangePosition(file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala, 2040, 2040, 2051)
+2023.02.27 13:00:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:00:02 INFO  time: compiled advance-scala in 0.49s
+2023.02.27 13:00:40 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:91: error: [dialect scala213] ) expected but ( found
+    case MyList(1,2,_())
+                     ^
+2023.02.27 13:00:40 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:00:40 INFO  time: compiled advance-scala in 28ms
+2023.02.27 13:00:41 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:41 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:42 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:42 ERROR scalafmt: /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92: error: [dialect scala213] => expected but } found
+  }
+  ^
+2023.02.27 13:00:42 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:00:42 INFO  time: compiled advance-scala in 32ms
+2023.02.27 13:00:42 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:44 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:44 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:45 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:46 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:46 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:47 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:46 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:48 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:48 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:48 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:48 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:48 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:48 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:49 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:49 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:49 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:49 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:49 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:49 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:50 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:49 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:50 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:51 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:51 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:52 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:52 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:92:3: stale bloop error: '=>' expected but '}' found.
+  }
+  ^
+2023.02.27 13:00:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:53 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:54 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:00:54 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:00:54 INFO  time: compiled advance-scala in 0.47s
+2023.02.27 13:01:04 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:71:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:01:04 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:71:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:01:08 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:01:08 INFO  time: compiled advance-scala in 0.48s
+Feb 27, 2023 1:01:12 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2242, count -1, length 2253
+2023.02.27 13:01:13 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:01:13 INFO  time: compiled advance-scala in 0.49s
+2023.02.27 13:01:13 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 19m 47.247s)
+2023.02.27 13:01:15 INFO  Configured debugger context in 360 milliseconds
+2023.02.27 13:01:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:01:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:01:15 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:01:15 INFO  Trying to attach to remote debuggee VM localhost:53584 .
+2023.02.27 13:01:15 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:01:15 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:01:15 INFO  Closing debug server tcp://0.0.0.0:53582
+Feb 27, 2023 1:02:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5607
+2023.02.27 13:02:45 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:02:45 INFO  time: compiled advance-scala in 0.47s
+2023.02.27 13:07:54 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:07:54 INFO  time: compiled advance-scala in 49ms
+2023.02.27 13:07:57 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:07:57 INFO  time: compiled advance-scala in 0.47s
+2023.02.27 13:07:58 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 26m 31.18s)
+2023.02.27 13:07:58 INFO  Configured debugger context in 475 milliseconds
+2023.02.27 13:07:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:07:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:07:59 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:07:58 INFO  Trying to attach to remote debuggee VM localhost:53682 .
+2023.02.27 13:07:58 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:07:59 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:07:58 INFO  Closing debug server tcp://0.0.0.0:53679
+2023.02.27 13:09:01 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:09:01 INFO  time: compiled advance-scala in 0.46s
+2023.02.27 13:09:01 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 27m 34.493s)
+2023.02.27 13:09:02 INFO  Configured debugger context in 366 milliseconds
+2023.02.27 13:09:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:09:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:09:02 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:02 INFO  Trying to attach to remote debuggee VM localhost:53696 .
+2023.02.27 13:09:02 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:09:02 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:02 INFO  Closing debug server tcp://0.0.0.0:53694
+2023.02.27 13:09:37 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:09:37 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 28m 10.498s)
+2023.02.27 13:09:37 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:09:37 INFO  time: compiled advance-scala in 0.35s
+2023.02.27 13:09:37 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 28m 10.86s)
+2023.02.27 13:09:37 INFO  Configured debugger context in 343 milliseconds
+2023.02.27 13:09:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:09:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:09:38 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:37 INFO  Trying to attach to remote debuggee VM localhost:53712 .
+2023.02.27 13:09:37 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:09:38 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:38 INFO  Closing debug server tcp://0.0.0.0:53709
+2023.02.27 13:09:44 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:09:44 INFO  time: compiled advance-scala in 0.45s
+2023.02.27 13:09:44 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 28m 18.264s)
+2023.02.27 13:09:46 INFO  Configured debugger context in 340 milliseconds
+2023.02.27 13:09:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:09:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:09:46 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:46 INFO  Trying to attach to remote debuggee VM localhost:53726 .
+2023.02.27 13:09:46 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:09:46 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:09:46 INFO  Closing debug server tcp://0.0.0.0:53724
+2023.02.27 13:10:22 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:10:22 INFO  time: compiled advance-scala in 51ms
+2023.02.27 13:10:24 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:10:24 INFO  time: compiled advance-scala in 49ms
+Feb 27, 2023 1:10:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:861)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:398)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at jdk.internal.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.02.27 13:10:28 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:10:28 INFO  time: compiled advance-scala in 55ms
+2023.02.27 13:10:48 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:10:48 INFO  time: compiled advance-scala in 0.44s
+2023.02.27 13:10:49 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 29m 22.102s)
+2023.02.27 13:10:49 INFO  Configured debugger context in 481 milliseconds
+2023.02.27 13:10:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:10:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:10:50 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:10:49 INFO  Trying to attach to remote debuggee VM localhost:53757 .
+2023.02.27 13:10:49 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:10:50 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:10:49 INFO  Closing debug server tcp://0.0.0.0:53754
+2023.02.27 13:10:58 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:10:58 INFO  time: compiled advance-scala in 0.46s
+2023.02.27 13:11:31 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:11:31 INFO  time: compiled advance-scala in 0.45s
+2023.02.27 13:11:34 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:11:34 INFO  time: compiled advance-scala in 0.43s
+2023.02.27 13:11:52 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:11:52 INFO  time: compiled advance-scala in 50ms
+Feb 27, 2023 1:11:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6276
+2023.02.27 13:11:59 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:11:59 INFO  time: compiled advance-scala in 47ms
+2023.02.27 13:12:31 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:12:31 INFO  time: compiled advance-scala in 51ms
+2023.02.27 13:12:33 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:12:33 INFO  time: compiled advance-scala in 0.46s
+Feb 27, 2023 1:12:42 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2595, count -1, length 2611
+2023.02.27 13:12:59 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:12:59 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:00 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:00 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:08 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:08 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:09 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:13:09 INFO  time: compiled advance-scala in 0.47s
+2023.02.27 13:13:15 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:15 INFO  file:///Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala:73:16: stale bloop warning: match may not be exhaustive.
+It would fail on the following inputs: List(_), Nil
+  val vararg = numbers match {
+               ^^^^^^^
+2023.02.27 13:13:17 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:13:17 WARN  Could not load snapshot text for /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/src/main/scala/lectures/part1/AdvancedScalaMatching.scala
+2023.02.27 13:13:17 INFO  time: compiled advance-scala in 0.48s
+2023.02.27 13:13:19 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 31m 51.698s)
+2023.02.27 13:13:19 INFO  Configured debugger context in 448 milliseconds
+2023.02.27 13:13:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:13:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:13:19 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:19 INFO  Trying to attach to remote debuggee VM localhost:53823 .
+2023.02.27 13:13:19 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:13:20 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:19 INFO  Closing debug server tcp://0.0.0.0:53819
+2023.02.27 13:13:29 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 32m 2.009s)
+2023.02.27 13:13:29 INFO  Configured debugger context in 773 milliseconds
+2023.02.27 13:13:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:13:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:13:30 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:29 INFO  Trying to attach to remote debuggee VM localhost:53845 .
+2023.02.27 13:13:29 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:13:30 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:30 INFO  Closing debug server tcp://0.0.0.0:53843
+2023.02.27 13:13:40 INFO  compiling advance-scala (1 scala source)
+2023.02.27 13:13:40 INFO  time: compiled advance-scala in 0.52s
+2023.02.27 13:13:41 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 3h 32m 14.256s)
+2023.02.27 13:13:41 INFO  Configured debugger context in 430 milliseconds
+2023.02.27 13:13:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 13:13:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 13:13:42 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:41 INFO  Trying to attach to remote debuggee VM localhost:53859 .
+2023.02.27 13:13:41 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 13:13:42 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 13:13:41 INFO  Closing debug server tcp://0.0.0.0:53857
+2023.02.27 14:47:29 INFO  time: code lens generation in 1.54s
+2023.02.27 14:47:40 INFO  running '/opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/wc/z7n51xp50px7l2v0h4jq86pm0000gn/T/metals17191763682275079947/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.02.27 14:47:41 INFO  [info] welcome to sbt 1.8.2 (Homebrew Java 11.0.18)
+2023.02.27 14:47:41 INFO  [info] loading global plugins from /Users/andrejnevesjr/.sbt/1.0/plugins
+2023.02.27 14:47:42 INFO  [info] loading settings for project advance-scala-build-build from metals.sbt ...
+2023.02.27 14:47:42 INFO  [info] loading project definition from /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/project
+2023.02.27 14:47:42 INFO  [info] loading settings for project advance-scala-build from metals.sbt ...
+2023.02.27 14:47:42 INFO  [info] loading project definition from /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project
+2023.02.27 14:47:43 INFO  [success] Generated .bloop/advance-scala-build.json
+2023.02.27 14:47:43 INFO  [success] Total time: 1 s, completed Feb 27, 2023, 2:47:43 PM
+2023.02.27 14:47:43 INFO  [info] loading settings for project advance-scala from build.sbt ...
+2023.02.27 14:47:43 INFO  [info] set current project to hello-world (in build file:/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/)
+2023.02.27 14:47:44 INFO  [success] Generated .bloop/advance-scala-test.json
+2023.02.27 14:47:44 INFO  [success] Generated .bloop/advance-scala.json
+2023.02.27 14:47:44 INFO  [success] Total time: 0 s, completed Feb 27, 2023, 2:47:44 PM
+2023.02.27 14:47:44 INFO  time: ran 'sbt bloopInstall' in 4.27s
+2023.02.27 14:47:44 INFO  Disconnecting from Bloop session...
+2023.02.27 14:47:44 INFO  Shut down connection with build server.
+2023.02.27 14:47:44 INFO  Shut down connection with build server.
+2023.02.27 14:47:44 INFO  Attempting to connect to the build server...
+2023.02.27 14:47:44 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.27 14:47:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.27 14:47:44 INFO  Attempting to connect to the build server...
+2023.02.27 14:47:44 INFO  Bloop uses /opt/homebrew/Cellar/openjdk@11/11.0.18/libexec/openjdk.jdk/Contents/Home defined at /Users/andrejnevesjr/.bloop/bloop.json
+2023.02.27 14:47:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/project/.metals/bsp.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.27 14:47:44 INFO  time: Connected to build server in 38ms
+2023.02.27 14:47:44 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.27 14:47:45 INFO  time: indexed workspace in 0.94s
+2023.02.27 14:47:58 INFO  compiling advance-scala (1 scala source)
+2023.02.27 14:47:58 INFO  time: compiled advance-scala in 74ms
+2023.02.27 14:48:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 14:48:02 INFO  time: compiled advance-scala in 59ms
+2023.02.27 14:48:02 INFO  compiling advance-scala (1 scala source)
+2023.02.27 14:48:02 INFO  time: compiled advance-scala in 32ms
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.02.27 14:48:07 INFO  compiling advance-scala (1 scala source)
+2023.02.27 14:48:07 INFO  time: compiled advance-scala in 61ms
+2023.02.27 14:48:22 INFO  compiling advance-scala (1 scala source)
+2023.02.27 14:48:22 INFO  time: compiled advance-scala in 0.53s
+2023.02.27 14:48:24 INFO  Deduplicating compilation of advance-scala from bsp client 'Metals 0.11.10' (since 39.792s)
+2023.02.27 14:48:24 INFO  Configured debugger context in 485 milliseconds
+2023.02.27 14:48:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-server.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.02.27 14:48:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.metals/dap-client.trace.json or /Users/andrejnevesjr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.02.27 14:48:24 INFO  Starting debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 14:48:24 INFO  Trying to attach to remote debuggee VM localhost:55679 .
+2023.02.27 14:48:24 INFO  Attaching to debuggee VM succeeded.
+2023.02.27 14:48:25 INFO  Canceling debug proxy for [lectures.part1.AdvancedScalaMatching]
+2023.02.27 14:48:24 INFO  Closing debug server tcp://0.0.0.0:55677
+2023.02.27 15:02:04 INFO  shutting down Metals
+2023.02.27 15:02:04 INFO  Shut down connection with build server.
+2023.02.27 15:02:04 INFO  Shut down connection with build server.

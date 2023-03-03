@@ -1,0 +1,4 @@
+[debug] [advance-scala-test] Classpath dependencies List()
+[debug] [advance-scala-test] Dependencies from configurations List(advance-scala)
+[debug] Bloop wrote the configuration of project 'advance-scala-test' to '/Users/andrejnevesjr/Documents/Study/Scala/ad_scala/advance-scala/.bloop/advance-scala-test.json'
+[success] Generated .bloop/advance-scala-test.json
